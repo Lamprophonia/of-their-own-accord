@@ -1,4 +1,4 @@
-# Of Their Own Accord
+![Of Their Own Accord](docs/assets/otoa-logo.png)
 
 OTOA is a Minecraft NPC mod in early development. Mod ID: `otoa`.
 
@@ -37,6 +37,7 @@ On Linux or macOS, use `bash ./gradlew` with the same task names. See the [NeoFo
 
 | Path | Purpose |
 | --- | --- |
+| `docs/assets/` | Public artwork used by the README and documentation. |
 | `src/main/java/com/lamprophonia/otoa/` | Java source; `OfTheirOwnAccord.java` is the common entry point. |
 | `src/main/templates/META-INF/neoforge.mods.toml` | Mod metadata template, expanded during the build. |
 | `gradle.properties` | Mod identity and runtime versions. |
