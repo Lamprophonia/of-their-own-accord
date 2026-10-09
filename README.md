@@ -1,7 +1,5 @@
 ![Of Their Own Accord](docs/assets/otoa-logo.png)
 
-# Of Their Own Accord
-
 OTOA is a Minecraft NPC mod in early development. Mod ID: `otoa`.
 
 ## Requirements
