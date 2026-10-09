@@ -1,0 +1,15 @@
+# Keep source and configuration text consistent across operating systems.
+* text=auto
+*.java text eol=lf
+*.gradle text eol=lf
+*.properties text eol=lf
+*.toml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# The Unix launcher uses LF; the Windows launcher uses CRLF.
+gradlew text eol=lf
+*.bat text eol=crlf
+*.jar binary

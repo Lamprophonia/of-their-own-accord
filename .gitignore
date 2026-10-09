@@ -1,0 +1,43 @@
+/AGENTS.md
+/design/
+
+# Gradle caches and generated build output
+/.gradle/
+/build/
+/out/
+/bin/
+/repo/
+
+# Minecraft development profiles, including their worlds and configuration
+/run/
+/runs/
+/run-client/
+/run-server/
+/logs/
+/crash-reports/
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local IntelliJ IDEA settings and launch configurations
+/.idea/
+/.run/
+*.iml
+*.ipr
+*.iws
+
+# Local Eclipse settings
+/.settings/
+/.eclipse/
+/.apt_generated/
+/.classpath
+/.project
+/.factorypath
+
+# Local VS Code settings
+/.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
