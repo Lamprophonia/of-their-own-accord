@@ -28,6 +28,13 @@ neoForge {
             client()
             gameDirectory = project.file('runs/client')
         }
+        // Second player for local multiplayer testing.
+        clientTwo {
+            client()
+            gameDirectory = project.file('runs/client-two')
+            programArgument '--username'
+            programArgument 'DevTwo'
+        }
         server {
             server()
             gameDirectory = project.file('runs/server')
