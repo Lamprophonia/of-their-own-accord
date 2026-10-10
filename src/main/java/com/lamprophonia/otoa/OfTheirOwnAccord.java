@@ -1,6 +1,8 @@
 package com.lamprophonia.otoa;
 
+import com.lamprophonia.otoa.registry.ModEntityTypes;
 import com.mojang.logging.LogUtils;
+import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import org.slf4j.Logger;
 
@@ -15,7 +17,8 @@ public final class OfTheirOwnAccord {
 
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public OfTheirOwnAccord() {
+    public OfTheirOwnAccord(IEventBus modBus) {
+        ModEntityTypes.register(modBus);
         LOGGER.info("Of Their Own Accord ({}) initialized.", MOD_ID);
     }
 }

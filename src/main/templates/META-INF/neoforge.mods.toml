@@ -11,7 +11,7 @@ displayName="${mod_name}"
 authors="Lamprophonia"
 displayURL="https://github.com/Lamprophonia/of-their-own-accord"
 description='''
-Repository foundation for Of Their Own Accord (OTOA), a Minecraft NPC mod.
+Of Their Own Accord (OTOA) is a Minecraft NPC mod in early development.
 '''
 
 [[dependencies.${mod_id}]]

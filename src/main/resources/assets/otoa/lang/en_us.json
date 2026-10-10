@@ -1,0 +1,4 @@
+{
+  "entity.otoa.human": "Human NPC",
+  "message.otoa.npc.identity": "Name: %1$s | UUID: %2$s"
+}
